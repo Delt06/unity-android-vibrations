@@ -22,7 +22,7 @@ namespace Effects
             if (1 <= amplitude && amplitude <= 255) return true;
             if (amplitude == -1) return true;
             
-            message = "Amplitude must belong to [0; 255] or be equal to -1.";
+            message = "Amplitude must belong to [1; 255] or be equal to -1.";
             return false;
         }
 
